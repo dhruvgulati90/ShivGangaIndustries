@@ -16,16 +16,17 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
+.logo{
+  margin-top: 10px;
+  margin-left: 100px;
+}
 .logo img{
     height: 150px;
     width: 150px;     
-    margin-left: 100px;
-    margin-top: 75px;
 }
 
 .button{
     display: flex;
-    margin-top: 50px;
     margin-right: 100px;
     gap: 40px;
     align-items: center;
@@ -40,7 +41,6 @@ nav{
     text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
-    margin-top: 40px;
     letter-spacing: 4px
 }
 
@@ -150,11 +150,11 @@ nav{
     width: auto;
     position: relative;
     z-index: 10;
-    font-size: 80px;
+    font-size: 70px;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -187,9 +187,10 @@ nav{
 .product-ranges{
   display: flex;
   justify-content: center;
+  text-align: center;
   background: black;
   font-size: 60px;
-  margin-top: 460px;
+  margin-top: 260px;
   color: white;
   width: 900px;
   object-fit: cover;
@@ -242,7 +243,7 @@ nav{
   right: -200px;
   opacity: 0;
   transition: all 0.8s ease-in-out;
-  margin-bottom: 40px; /* Add some spacing between sets */
+  margin-bottom: 40px;
 }
 .grade-heading{
     font-size: 45px;
@@ -325,6 +326,9 @@ nav{
   gap: 10px;
 }
 @media only screen and (min-width: 1920px) {
+  body{
+    background: black;
+  }
 }
 @media only screen and (max-width: 1600px) {
 .logo img {
@@ -341,12 +345,9 @@ nav{
     font-size: 40px;
 }
 .product-ranges{
-  margin-top: 300px;
+  margin-top: 200px;
   width: 800px;
   font-size: 50px;
-}
-.grade-heading{
-  font-size: 45px;
 }
 .grade-info{
   font-size: 25px;
@@ -372,25 +373,28 @@ nav{
 }  
 .brand-name{
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 .lp-first-info{
     font-size: 35px;
     margin-top: 30px;
 }
 .product-ranges {
-  margin-top: 300px;
+  margin-top: 200px;
   width: 600px;
   font-size: 35px;
 }
+.grade-set {
+  margin-bottom: 30px; 
+}
 .grade-heading{
-  font-size: 32px;
+  font-size: 30px;
 }
 .grade-info{
-  font-size: 20px;
+  font-size: 18px;
 }
 .P-image {
-    max-width: 280px;
+    max-width: 250px;
 }
 .aboutus-heading{
   width: 600px;
@@ -407,16 +411,11 @@ nav{
   font-size: 25px;
 }
 @media only screen and (max-width: 1200px) {
-.logo img {
-    height: 100px;
-    width: 100px;
-}
   .button1,.button2{
     font-size: 15px;
 }  
 .brand-name{
     font-size: 50px;
-    margin-top: 100px;
 }
 .lp-first-info{
     font-size: 35px;
@@ -435,47 +434,25 @@ nav{
 }
 }
 @media only screen and (max-width: 960px) {
-/* .logo img {
-    height: 120px;
-    width: 120px;
-} */
-/* .button1,.button2{
-    font-size: 20px;
-} */
+
 .brand-name{
     font-size: 40px;
 }
 .lp-first-info{
     font-size: 30px;
 }
-/* .product-ranges{
-  margin-top: 300px;
-  width: 800px;
-  font-size: 50px;
-} */
-/* .grade-heading{
-  font-size: 45px;
-} */
-/* .grade-info{
-  font-size: 25px;
-} */
 .P-image {
     max-width: 250px;
 }
-/* .aboutus-heading{
-  width: 700px;
-  font-size: 50px;
-} */
-
- .product-info{
+.product-info{
   flex-direction: column;
   gap: 0px;
- }
- .product-images{
+}
+.product-images{
   flex-direction: row;
   margin-left: 0px;
- }
- .aboutus-info {
+}
+.aboutus-info {
     margin: 0 50px 0 100px;
 }
 .contact-info{
@@ -484,7 +461,7 @@ nav{
 }
 }
 @media only screen and (max-width: 650px) {
-  .logo img{   
+  .logo {   
     margin-left: 10px;
     margin-top: 25px;
 }
